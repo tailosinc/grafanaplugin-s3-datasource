@@ -1,6 +1,6 @@
 {
   "name": "@tailosinc/grafanaplugin-s3-datasource",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provide a secure interface for aws s3 assets via presigned URLs",
   "scripts": {
     "build": "webpack -c ./.config/webpack/webpack.config.ts --env production",
