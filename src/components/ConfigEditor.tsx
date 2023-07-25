@@ -41,7 +41,10 @@ export function ConfigEditor(props: Props) {
   };
 
   const { jsonData, secureJsonFields } = options;
-  // TODO: do we need secureJsonData?
+  // NOTE: we are not using secureJsonData as that requires development of a backend plugin.
+  // Current recommendation is to limit scope of the IAM user associated with the keys below
+  // to a least-privilieges approach, as the ACCESS_KEY_ID and SECRET_ACCESS_KEY will be
+  // sent over encrypted HTTPS.
   // const secureJsonData = (options.secureJsonData || {}) as MySecureJsonData;
 
   return (

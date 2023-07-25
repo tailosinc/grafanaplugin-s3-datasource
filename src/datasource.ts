@@ -56,7 +56,7 @@ export class DataSource extends DataSourceApi<MyQuery, MyDataSourceOptions> {
   }
 
   async testDatasource() {
-    // Implement a health check for your data source.
+    // TODO: Implement a health check for your data source.
     return {
       status: 'success',
       message: 'Success',
